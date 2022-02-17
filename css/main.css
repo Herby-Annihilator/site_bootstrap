@@ -1,0 +1,132 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    padding: 0px;
+    margin: 0px;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+section{
+    margin-top: 90px;
+}
+
+.my_container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 500px;
+    background: url(../images/header.jpg) no-repeat center top / cover;
+}
+
+.header a{
+    color: white;
+    display: block;
+}
+
+.background{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo{
+    margin-right: 70px;;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li a{
+    text-decoration: none;
+    margin-right: 47px;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 1;
+}
+
+
+.sign_in__sign_up li a{
+    margin-right: 0;
+    text-decoration: none;
+    display: block;
+}
+
+.log_in_btn{ 
+    border: solid 1px white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+    height: 40px;
+    margin-right: 0px;
+}
+
+.log_in_btn:hover{
+    background-color: antiquewhite;
+    color: black;
+    transition: background-color 1s;
+}
+
+.sign_up{
+    margin-top: 10px;
+    font-size: 18px;;
+}
+
+.title{
+    margin-top: 150px;
+    margin-left: 90px;
+    color: white;
+}
+
+.title h1{
+    font-size: 56px;
+}
+
+.block_to_link p{
+    display: inline;
+    margin-right: 30px;
+}
+
+.card{
+    margin-top: 8px;
+    border: none;
+    border-radius: 0%;
+    border-right: solid 1px black;
+}
+
+.image:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+
+.all_objects{
+    font-size: 18px;
+}
+
+.card-text{
+    font-size: 18px;
+}
