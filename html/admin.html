@@ -163,6 +163,7 @@
         </div>
     </section>
 
+    <!--Модальное окно-->
     <div class="modal fade" tabindex="-1" id="editMineral" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -171,7 +172,42 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    
+                    <form action="..." name="mineral">
+                        <div class="row">
+                            <div class="col-4 d-flex flex-column">
+                                <input type="image" name="mineral_image" id="mineral_image" src="../images/main_mineral.png">
+                                <a href="#">Загрузить изображение</a>
+                            </div>
+                            <div class="col-8">
+                                <div class="form_text_item">
+                                    <label for="mineral_name">Наименование минерала</label>
+                                    <input type="text" name="mineral_name" id="mineral_name">
+                                </div>
+                                <div class="form_text_item">
+                                    <label for="searchers">Исследователи</label>
+                                    <input type="text" name="searchers" id="searchers">
+                                </div>
+                                <div class="form_text_item">
+                                    <label for="publish">Публикации</label>
+                                    <input type="text" name="publish" id="publish">
+                                </div>
+                                <div class="form_text_item">
+                                    <label for="field">Месторождения</label>
+                                    <input type="text" name="field" id="field">
+                                </div>
+                                <div class="form_text_item">
+                                    <label for="place">Территории</label>
+                                    <input type="text" name="place" id="place">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 d-flex flex-column">
+                                <label for="min_description">Описание</label>
+                                <textarea name="description" id="min_description" cols="30" rows="10" required placeholder="Описание"></textarea>
+                            </div>
+                        </div>
+                    </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отменить</button>
